@@ -1,0 +1,5 @@
+
+Αρχικά  εγκαταστήστε το λογισμικο του Arduino από το σύνδεσμο https://www.arduino.cc/en/Main/Software. 
+Στη συνέχεια μεταβείτε στο Documents/arduino δημιουργήστε τους εξής φακέλους:
+/tools/ArduBlockTool/tool/
+στη συνέχεια αντιγράψτε το αρχείο ardublock-beta-20140828.jar 
