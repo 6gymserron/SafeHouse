@@ -1,22 +1,28 @@
 
-Χρειαστήκαμε τα εξής:
+Υλικά έργου
 
-⦁	 Arduino Starter Kit  35 € (περιέχει όλον το  βασικό εξοπλισμό και κάποιους αισθητήρες π.χ. φωτοευαισθησίας κλπ)
+Καταμερισμός εργασιών, καταγραφή υλικών και προμήθεια αυτών. Χρειαστήκαμε τα εξής:
 
-⦁	Flame Sensor Module for Arduino (Flame Temp Board Detector Smartsense For Temperature Detecting Suitable) 2 €
+•	 Arduino Starter Kit  35 € (περιέχει όλον το  βασικό εξοπλισμό και κάποιους αισθητήρες π.χ. φωτοευαισθησίας κλπ)
 
-⦁	Active Buzzer Module for Arduino 2.19 €
+•	Flame Sensor Module for Arduino (Flame Temp Board Detector Smartsense For Temperature Detecting Suitable) 2 €
 
-⦁	40Pcs M/M Dupont Wire Jumper Cables 30cm Extra Long 4.34 €
+•	HC-SR501 PIR Motion Sensor Module for Arduino 2.98€
 
-⦁	Raindrops Detection and Humidity Sensor For Arduino 2,29 €
+•	Active Buzzer Module for Arduino 2.19 €
 
-⦁	ENC28J60 Ethernet Network Module For Arduino 6,50 €
+•	40Pcs M/M Dupont Wire Jumper Cables 30cm Extra Long 4.34 €
 
-⦁	υλικά για μακέτα (μακετόχαρτα, σιλικόνη, διαφάνειες κλπ) περίπου 5,5 €
+•	Raindrops Detection and Humidity Sensor For Arduino 2,29 €
 
-⦁	SCT-013 AC Current Transformer Non-invasive Sensor Split Core Transformer 0-30A 11.90€ δεν λειτούργησε (ελαττωματικός) 
-Αναγκαστήκαμε να τροποποιήσουμε το στόχο του έργου μας και παραγγείλαμε το παρακάτω για τον έλεγχο της εμφάνισης τρωκτικών ή εντόμων σε χώρους τροφίμων ή αποθήκες του σπιτιού.
-⦁	HC-SR501 PIR Motion Sensor Module for Arduino 2.98€
+•	ENC28J60 Ethernet Network Module For Arduino 6,50 €
 
-Συνολικό κόστος κατασκευής: 60,80 €
+•	υλικά για μακέτα (μακετόχαρτα, σιλικόνη, διαφάνειες κλπ) περίπου 5,5 €
+
+•	SCT-013 AC Current Transformer Non-invasive Sensor Split Core Transformer 0-30A 11,90€ 
+δεν λειτούργησε (ελαττωματικός, επεστράφη και περιμένουμε αντικατάστασή του)
+
+•	HC-SR501 PIR Motion Sensor Module for Arduino 2,98€
+
+Συνολικό κόστος κατασκευής περίπου 61 €
+
