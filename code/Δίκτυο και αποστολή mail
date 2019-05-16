@@ -1,0 +1,42 @@
+Βρήκαμε έναν έτοιμο κώδικα και κάναμε προς το παρόν τα εξής:
+
+Κατέβασμα κατάλληλης library UIPEthernet από εδώ:
+https://github.com/UIPEthernet/UIPEthernet
+
+και στήσαμε ένα μηχανισμό ειδοποιήσεων στο IFTTT:
+www.ifttt.com
+
+Αυτό είναι απαραίτητο διότι πλέον οι email servers είναι πολύ αυστηροί και απαιτούν διάφορες δικλείδες ασφαλείας για να σε αφήσουν να στείλεις email. 
+Το δυσκολότερο έιναι ότι απαιτούν SSL encryption, κάτι που είναι πολύ δύσκολο να γίνει σε arduino.
+Για αυτό συνήθως χρησιμοποιούμε ένα ενδιάμεσο service που παρέχει κάποιο RESTful API, το οποίο όταν το καλούμε στέλνει το κατάλληλο notification. 
+Το IFTTT είναι ένα τέτοιο service, που μπορείς να στήσεις πάρα πολλούς αυτοματισμούς. 
+
+Οι οδηγίες που βρήκαμε στα Αγγλικά και χρησιμοποιήσαμε.
+  
+   1) Install UIPEthernet Library from:
+      https://github.com/UIPEthernet/UIPEthernet
+
+   2) Register in IFTTT
+      www.ifttt.com
+
+   3) Create a new Applet:
+      1) click on "+ This"
+      2) select "Webhooks" from services
+      3) select "Receive a web request"
+      4) enter an Event Name (eg: test_event. If you choose other name, change it in the variable 'server_get_content' below)
+      5) click on "+ That"
+      6) select "Email" from services
+      7) select "Send me an email"
+      8) choose/change the Subject & Body
+      9) press "Create action"
+      10) press "Finish"
+
+   4) Visit https://ifttt.com/maker_webhooks
+      1) press "Documentation" 
+      2) copy your Key
+      3) Replace you Key in the variable 'server_get_content' below
+
+
+Η αποστολή του email γίνεται με τη συνάρτηση sendEmailNotification(), την οποία καλούμε μια φορά στην αρχή.
+
+Τώρα μένει να τα καταφέρουμε όλα αυτά σε ardublock!!!
